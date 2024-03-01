@@ -1,5 +1,5 @@
-export { default as ToDoList } from '../../components/ToDoList.vue'
-export { default as ToDoListItem } from '../../components/ToDoListItem.vue'
+export { default as ToDoList } from '../..\\components\\ToDoList.vue'
+export { default as ToDoListItem } from '../..\\components\\ToDoListItem.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

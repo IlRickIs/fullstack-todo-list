@@ -18,6 +18,14 @@ export default {
         return {}
       }
     }
+  },
+  methods: {
+    deleteItem () {
+      this.$emit('delete', this.todo)
+    },
+    completeItem () {
+      this.$set(this.todo, 'completed', !this.todo.completed)
+    }
   }
 }
 </script>
